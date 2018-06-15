@@ -1,0 +1,165 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 15px;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+    background-color: white;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: gray;
+}
+
+.select{
+    background-color: gray;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.floaLeft{
+    float:left;
+}
+
+.floaRight{
+    float: right;
+}
+
+.border{
+    border: solid black;
+}
+
+
+/*-- header --*/
+header{
+    margin: 100px 200px 0;
+}
+
+.header-logo{
+    margin-bottom: 50px;
+}
+
+.header-logo img{
+    width: 25%;
+}
+
+.header-nav{
+    float: right;
+    margin-bottom: 30px;
+}
+
+.header-nav li{
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+
+/*--- mein --*/
+
+.top-img img{
+    width: 100%;
+}
+
+
+/*-- service --*/
+.service-title{
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.service-title h2{
+    font-size: 55px;
+    font-family: 'Lato', sans-serif;
+}
+
+.service-contents ul{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.service-contents li{
+    vertical-align: top;
+    width: 28%;
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.service-contents li h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.service-contents li h4{
+    font-size: 14px;
+    opacity: 0.4;
+}
+
+.service-contents li .service-img{
+    padding: 30px 0;
+}
+
+.service-contents li .service-img img{
+    width: 33%;
+}
+
+.service-contents li p{
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
